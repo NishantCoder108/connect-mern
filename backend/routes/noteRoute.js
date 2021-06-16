@@ -8,7 +8,7 @@ router.route("/create").post((req, res) => {
     const fullplot =req.body.fullplot;
     const newNote = new Note({
         title,
-        content
+       fullplot
 
     })
 

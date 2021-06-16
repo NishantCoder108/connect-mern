@@ -6,5 +6,5 @@ const notesSchema = {
     fullplot:String
 }
 
-const Note = mongoose.model('Note' ,notesSchema, 'movies' )
+const Note = mongoose.model('Note' ,notesSchema, 'ten' )
 module.exports = Note;
